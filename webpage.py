@@ -45,9 +45,9 @@ select= st.sidebar.selectbox ("select: ",
                       ['home','signup','login'])
 if select=="home":
     st.title("welcome to app")
-    from PIL import Image
-    img=Image.open("vgswc.jpg")
-    st.image(img, width=200)
+    #from PIL import Image
+    #img=Image.open("vgswc.jpg")
+    #st.image(img, width=200)
     st.text("this app is introduction of streamlit")
 if select=="signup":  
     firstname = st.text_input("enter your first name",)
